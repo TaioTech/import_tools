@@ -1,0 +1,67 @@
+@media screen {
+
+  * {
+    cursor: default;
+  }
+
+  body {
+    height: 100%;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    text-align: center;
+    margin: 3px;
+    -webkit-user-select: none;
+    -webkit-app-region: drag; /*Allows for frameless dragable window*/
+  }
+
+  select {
+    -webkit-app-region: drag;
+  }
+
+  .box {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    /* position: relative; */
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    font: caption;
+  }
+  
+  .held {
+    border: solid 10px black;
+    background-color: black;
+  }
+  
+  .holder {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border: solid 5px black;
+    background-color: white;
+    display: inline-block;
+  }
+  
+  .hovered {
+    border: dotted 5px black;
+  }
+  
+  .invisible {
+    display: none;
+  }
+  
+  #container {
+    margin: auto;
+    top: 100px;
+    width: 400px;
+    /* position: relative; */
+  }
+}
+
+/* -moz-column-count: 12; */
+/* -moz-column-gap: 8px; */
+/* -webkit-column-count: 12; */
+/* -webkit-column-gap: 8px; */
+/* column-count: 12; */
+/* column-gap: 8px; */
